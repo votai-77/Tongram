@@ -8,6 +8,6 @@ export const config={
 
     //cookie
     cookieDir: './Cookies',
-    cookieFilePath: './Cookies/cookies_tongram.json'
+    cookieFilePath: './cookies_tongram.json'
 
 }

@@ -33,9 +33,10 @@ export default defineConfig({
     trace: 'on-first-retry',
     launchOptions:{
       slowMo: 1000,
+      args: ['--start-maximized'],
     },
     viewport: null,
-    headless: true,
+    headless: false,
 
   },
 
