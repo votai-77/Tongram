@@ -33,18 +33,21 @@ export default defineConfig({
     trace: 'on-first-retry',
     launchOptions:{
       slowMo: 1000,
-      args: ['--start-maximized'],
-    },
-    viewport: null,
-    headless: false,
+      headless: true,
+      args: ["--start-maximized","--window-size=1920,1080"],
 
+    },
+    
+   
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { 
+        // ...devices['Desktop Chrome'] 
+      viewport:null},
     },
 
     // {
