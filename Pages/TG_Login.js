@@ -7,6 +7,7 @@ export class Login {
     }
     async loginAccount() {
         await this.page.goto('https://tongram.app/');
+        await this.page.reload();
         const page1Promise = this.page.waitForEvent('popup');
         await this.page.getByRole('button', { name: 'Log In' }).click();
         const page1 = await page1Promise;
