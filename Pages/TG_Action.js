@@ -7,25 +7,7 @@ export class Action {
     constructor(page) {
         this.page = page;
     }
-    // async loginAccount() {
-    //     await this.page.goto('https://tongram.app/');
-    //     await this.page.reload();
-    //     const page1Promise = this.page.waitForEvent('popup');
-    //     await this.page.getByRole('button', { name: 'Log In' }).click();
-    //     const page1 = await page1Promise;
-    //     await page1.locator('#login-phone').fill('0329733010');
-    //     await page1.getByRole('button', { name: 'Next' }).click();
-    //     const botId = '5301673971'; // Xác nhận bot_id trước khi sử dụng
-    //     if (!botId.match(/^\d+$/)) {
-    //         throw new Error('Invalid bot_id');
-    //     }
-    //     const oauthUrl = `https://oauth.telegram.org/auth/push?bot_id=${botId}&origin=https%3A%2F%2Ftongram.app&request_access=true&return_to=https%3A%2F%2Ftongram.app%2F`;
-    //     // await page1.goto('https://oauth.telegram.org/auth/push?bot_id=7241997507&origin=https%3A%2F%2Ftongram.app&request_access=true&return_to=https%3A%2F%2Ftongram.app%2F');
 
-    //     await this.page.goto(oauthUrl);
-    //     await this.page.goto('https://tongram.app/');
-    //     await this.page.reload();
-    // }
     async LoginAccountTelegram(){
         try {
             const cookiesPath = path.join(config.cookieDir, config.cookiesFile);
