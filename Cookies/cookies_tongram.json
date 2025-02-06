@@ -1,47 +1,47 @@
 [
   {
-    "name": "_ga_LL3CFL35SX",
-    "value": "GS1.1.1738567377.1.0.1738567377.0.0.0",
-    "domain": ".tongram.app",
-    "path": "/",
-    "expires": 1773127377.219202,
-    "httpOnly": false,
-    "secure": false,
-    "sameSite": "Lax"
-  },
-  {
     "name": "_ga",
-    "value": "GA1.1.707939513.1738567377",
+    "value": "GA1.1.1328652353.1738807066",
     "domain": ".tongram.app",
     "path": "/",
-    "expires": 1773127377.2196,
+    "expires": 1773367067.981069,
     "httpOnly": false,
     "secure": false,
     "sameSite": "Lax"
   },
   {
     "name": "__cf_bm",
-    "value": "N5NFn5npmB6G9gz5YLsd2HSS1PDih0qcu0wdrjip6n0-1738567378-1.0.1.1-iNlJGJpyulPkr6BFZ5KEuFeSDWH6za5o1GNerh_x.Iaul0ag1IVw1Ygn08z6c5GCXy4CyMoh9GOQl_Q1vtX5mA",
+    "value": "YjgwY9yEoZ2m5hMq7S6dIfWCvs90Ub5kf51b7WGRzdA-1738807066-1.0.1.1-Zib8AXi92o3CDT3Rp6R3Izf4JuxVdomL2zIbAIBmQ.pkJBY_WmJ_SuyJsJpQrVgLUPxPIh3D6zq_S4MnPX_Bjg",
     "domain": ".wallet.tg",
     "path": "/",
-    "expires": 1738569177.962265,
+    "expires": 1738808867.269308,
     "httpOnly": true,
     "secure": true,
     "sameSite": "None"
   },
   {
+    "name": "_ga_LL3CFL35SX",
+    "value": "GS1.1.1738807066.1.1.1738807067.0.0.0",
+    "domain": ".tongram.app",
+    "path": "/",
+    "expires": 1773367067.980783,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
     "name": "stel_ssid",
-    "value": "beeeef96477846a90d_12385959067031994976",
+    "value": "83639cc3631615992e_11185935898686712756",
     "domain": "oauth.telegram.org",
     "path": "/",
-    "expires": 1770366446.382554,
+    "expires": 1769867723.257164,
     "httpOnly": true,
     "secure": true,
     "sameSite": "None"
   },
   {
     "name": "stel_tsession_84329733010",
-    "value": "tXViBJnhDpYcWe1Rznofb9-o",
+    "value": "Eh8ytf9q72jz4LC1y9D00yrT",
     "domain": "oauth.telegram.org",
     "path": "/",
     "expires": -1,
@@ -51,7 +51,7 @@
   },
   {
     "name": "stel_tsession",
-    "value": "tXViBJnhDpYcWe1Rznofb9-o",
+    "value": "Eh8ytf9q72jz4LC1y9D00yrT",
     "domain": "oauth.telegram.org",
     "path": "/",
     "expires": -1,

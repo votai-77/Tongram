@@ -17,4 +17,25 @@ export class VerifyPoint {
             throw error;
         }
     }
+    convertToPoint(pointText) {
+        if (pointText.includes('K')) {
+            return parseFloat(pointText.replace('K', '')) * 1000;
+        }
+        else if (pointText.includes('M')) {
+            return parseFloat(pointText.includes('M', '')) * 1000000;
+        } else if (pointText.includes('M')) {
+            return parseFloat(pointText.includes('B', '')) * 1000000000;
+        } else if (pointText.includes('M')) {
+            return parseFloat(pointText.includes('T', '')) * 1000000000000;
+        } else {
+            return parseFloat(pointText);
+        }
+    }
+    async verifyPoint() {
+        try {
+            const pointText1 = await
+        } catch (e) {
+            console.log("Error", e);
+        }
+    }
 }
